@@ -12,6 +12,6 @@ while(dias!=0):
         asistencia+=1
     elif dias!=0:
         asistencia*=0
-print("Dias asistidos="asistencia)
+print("Dias asistidos=",asistencia)
 
 

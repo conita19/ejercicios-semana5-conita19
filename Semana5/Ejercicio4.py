@@ -10,7 +10,7 @@ while(dias!=0):
     dias=int(input("Dime si hoy has asistido a clases. Pon 1 para asitencia y 0 para inasistencia):"))
     if dias==1:
         asistencia+=1
-    elif dias!=0:
+    elif dias==0:
         asistencia+=0
 print("Dias asistidos=",asistencia)
 

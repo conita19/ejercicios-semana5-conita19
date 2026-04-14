@@ -11,7 +11,7 @@ while(dias!=0):
     if dias==1:
         asistencia+=1
     elif dias!=0:
-        asistencia*=0
+        asistencia+=0
 print("Dias asistidos=",asistencia)
 
 
